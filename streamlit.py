@@ -8,7 +8,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.title("📖 Persian OCR")
+st.title("📖 Advo OCR")
 st.markdown(
     """## Advo OCR allows users to **scan** documents and extract **text** from scanned image.
 ### How to use:
