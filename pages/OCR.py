@@ -10,13 +10,13 @@ import warnings
 warnings.filterwarnings("ignore")
 
 st.set_page_config(
-    page_title="Persian OCR",
+    page_title="Advo OCR",
     page_icon="📖",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-st.title("📖 Persian OCR")
+st.title("📖 Advo OCR")
 
 
 def ocr(file_name):
