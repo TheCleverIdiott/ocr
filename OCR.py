@@ -55,7 +55,7 @@ with input_col:
                     )
                     with input_col:
                         st.markdown(
-                            f'<div dir="rtl" style="text-align: justify;">{extracted_text}</div>',
+                            f'<div dir="ltr" style="text-align: justify;">{extracted_text}</div>',
                             unsafe_allow_html=True,
                         )
 
