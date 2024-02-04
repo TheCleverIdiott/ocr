@@ -28,7 +28,7 @@ def ocr(file_name):
     for i in range(n_boxes):
         (x, y, w, h) = (d["left"][i], d["top"][i], d["width"][i], d["height"][i])
         boxes = cv2.rectangle(boxes, (x, y), (x + w, y + h), (0, 255, 0), 2)
-    extracted_text = pytesseract.image_to_string(image, lang="fas")
+    extracted_text = pytesseract.image_to_string(image, lang="en")
     # pdf = pytesseract.image_to_pdf_or_hocr(image, lang="fas", extension="pdf")
     # hocr = pytesseract.image_to_pdf_or_hocr(image, lang="fas", extension="hocr")
     return boxes, extracted_text
