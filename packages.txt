@@ -1,6 +1,0 @@
-tesseract-ocr
-tesseract-ocr-fas
-pkg-config
-libfreetype6-dev
-libpng-dev
-python3-opencv
